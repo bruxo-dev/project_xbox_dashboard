@@ -1,6 +1,6 @@
 SELECT 
     Subscription_Type,
-    SUM(Subscription_Price + EA_Play_Season_Pass_Price) AS Total_Income
+    SUM(EA_Play_Season_Pass_Price) AS Total_Income
 FROM 
     base_de_dados
 WHERE 
